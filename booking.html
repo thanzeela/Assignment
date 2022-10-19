@@ -1,5 +1,21 @@
 <html>
-    <head></head>
+    <head>
+
+        <title>Flight Booking</title>
+        <link href="./css/main.css" type="text/css" rel="stylesheet"/>
+        <!-- <style type="text/css">
+            label{
+                color:blue;
+                font-weight: bold;
+            }
+            .tab1{
+                border: 1px solid #cc0000
+            }
+            .tab2{
+                border: 1px solid #3407d9
+            }
+        </style> -->
+    </head>
     <body>
         <h1>BOOK YOUR TICKETS </h1>
         <a href="index.html"title= "Home Page">Go back to home page</a>
@@ -48,9 +64,9 @@
         <table/>
         <!--booking from start-->
         <form action="print.html" method="post">
-            <table cellspacing="6" cellpadding="4">
+            <table class="tab1" cellspacing="6" cellpadding="4">
                 <tr>
-                <td>
+                <td class="tab1">
                     <label  for="title">Title</label>
                 </td><td>
                     <select id="title" name="title" multiple>
