@@ -4,18 +4,18 @@
     </head>
     <body>
         Submitted details:
-        <input type="button" name="btnshow" value="show data" onclick="javascript:showdata();"/>
+        <input type="button" name="btnshow" value="show data" onclick="javascript:showData();"/>
         First Name:<label id="lblFirstName"></label>
 
         Welcome <span id="Fullname"></span>! your address is <span id="address"></span>
         <script>
-            function showdata(){
+            function showData(){
                 //var submitteddata = localstorage.getitem('formdata');
-                var FirstName = localstorage.getitem('FirstName');
-                var LastName = localstorage.getitem('lastname');
-                var address = localstorage.getitem('address');
-                console.log(FirstName);
-                document.getElementById('FullName').innerHTML= firstName+" "+lastName;
+                var firstname = localStorage.getItem('firstname');
+                var lastname = localStorage.getItem('lastname');
+                var address = localStorage.getItem('address');
+                console.log(firstname);
+                document.getElementById('Fullname').innerHTML= firstname+" "+lastname;
                 document.getElementById('address').innerHTML = address;
                 document.getElementById('lblFirstName').innerHTML =firstname;
 

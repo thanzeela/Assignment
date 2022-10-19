@@ -48,31 +48,31 @@
         <table/>
         <!--booking from start-->
         <form action="print.html" method="post">
-            <table cellspacin="6" cellpadding="4">
+            <table cellspacing="6" cellpadding="4">
                 <tr>
                 <td>
-                    <label for="First Name">First Name:</label>
+                    <label for="firstname">First Name:</label>
                 </td>
                 <td>
-                    <input type="text" id="First Name" name="First Name" placeholder="your first name">
+                    <input type="text" id="firstname" name="firstname" placeholder="your first name">
 
             </td>
             </tr>
        <tr>
             <td>
-                <label for="Last Name">Last Name:</label>
+                <label for="lastname">Last Name:</label>
             </td>
             <td>
-                <input type="text" id="Last Name" name="Last Name" placeholder="your last name">
+                <input type="text" id="lastname" name="lastname" placeholder="your last name">
             </td>
             </tr>
             <tr>
                 <td>
-                    <label for ="Address">Address:</label>
+                    <label for ="address">Address:</label>
 
                 </td>
                 <td>
-                    <textarea type="text" id="Address" name="Address" placeholder="your address" rowa="9" cols="25"></textarea>
+                    <textarea type="text" id="address" name="address" placeholder="your address" rowa="9" cols="25"></textarea>
                 </td>
 
             </tr>
@@ -153,16 +153,38 @@
             </td>
         </tr>
         <tr>
-            <td>
-                <input type="submit" onclick="Javascript:savedata();" id="submit">
-            </td>
-            <td>
-                <input type="reset" id="reset" name="reset" vale="reset"/>
-            </td>
-        </tr>
-        
 
+            <td>
+
+                <input type="submit" onclick="javascript:saveData();" id="submit" name="submit" value="Submit"/>
+
+            </td>
+
+            <td>
+
+                <input type="reset"  id="reset" name="reset" value="Reset"/>
+
+            </td>
+
+        </tr>
             </table>
+        </form>
+        <I-- from end--></I-->
+        <script>
+            function  saveData(){
+                var firstname=document.getElementById('firstname').value;
+                var lastname=document.getElementById('lastname').value;
+                var address=document.getElementById('address').value;
+
+                localStorage.setItem('firstname',firstname);
+                localStorage.setItem('lastname',lastname);
+                localStorage.setItem('address',address);
+
+
+            }
+        </script>
+
+    
 
 
 
