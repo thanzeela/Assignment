@@ -1,0 +1,32 @@
+#square1 {
+
+    background-color: brown;
+
+    height: 100px;
+
+    width: 100px;
+
+    position:absolute;
+
+    z-index: 0;
+
+}
+
+#square2 {
+
+    background-color:blueviolet;
+
+    height: 100px;
+
+    width: 100px;
+
+    position:absolute;
+
+    top: 50px;
+
+    left: 50px;
+
+    z-index: 1;
+
+}
+
