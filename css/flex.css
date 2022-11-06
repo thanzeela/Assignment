@@ -1,0 +1,19 @@
+div{
+    border: 1px solid black;
+    height: 100px;
+
+
+}
+.container{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.item{
+    width: 30%;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 24pt;
+}

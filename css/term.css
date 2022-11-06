@@ -1,0 +1,12 @@
+.top{
+    width:100vw;
+    height:50vh;
+    background-color:rgb(37, 176, 108);
+    margin:0px;
+}
+.bottom{
+    width:100vw;
+    height:50vh;
+    background-color:rgb(35, 209, 191);
+    margin:0px;
+}

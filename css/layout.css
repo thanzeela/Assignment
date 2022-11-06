@@ -1,0 +1,73 @@
+.left-div{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    border: 1px solid black;
+    width: 40%;
+    float: left;
+    background-color:blue;
+    z-index: 3;
+
+}
+.left-div:hover{
+    background-color:aqua;
+    color:black;
+}
+.right-div{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 1px solid red;
+    width: 40%;
+    float: left;background-color:pink;
+    z-index: 3;
+
+
+    z-index:2;
+}
+.container{
+    border: 1px solid green;
+    position: relative;
+    top: 50px;
+    left:  30px;
+    height: 100px;
+    width: 600px;
+
+
+
+}
+.float-btn{
+    position: fixed;
+    top: 50%;
+    right: 50px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:aquamarine;
+    font-weight: bold;
+    font-size: 24pt;
+    line-height: 100px;
+    text-align: center;
+}
+a:link{
+    color:green;
+
+}
+a:visited{
+    color:green;
+
+}
+a:hover{
+    color:cyan;
+    
+}
+li:first-child{
+    font-weight: bold;}
+    .container div:first-child  {
+    height: 100px;
+    }
+    input:focus{
+        
+    }
+
+
+
