@@ -1,0 +1,65 @@
+body{
+    margin: 0%;
+    padding: 0%;   
+}
+.mainbody{
+    width: 100vw;
+    height: 100vh;
+    /*background-color: aqua;*/
+}
+.upperbody{
+    height: 70%;
+    background-color: rgb(70, 244, 186);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.lowerbody{
+    height: 30%;
+    background-color:rgb(82, 249, 249);
+}
+.leftbox{
+    width: 15vw;
+    height: 30vh;
+    background-color: white;
+    
+}
+.middlebox1{
+    width: 15vw;
+    height: 55vh;
+    background-color: white;
+}
+.middlebox2{
+    width: 15vw;
+    height: 55vh;
+    background-color: white;
+}
+.rightbox{
+    width: 15vw;
+    height: 30vh;
+    background-color: white;
+}
+.smalbox{
+    width: 3vw;
+    height: 7vh;
+    background-color:rgb(70, 244, 186) ;
+    margin: 10px;
+    display: flex;
+    border-radius: 4px;
+}
+.smalbox1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+       
+}
+.longbox{
+    height: 7vh;
+    width: 14vw;
+    background-color: rgb(70, 244, 186);
+    border-radius: 4px;
+}
+.longbox1{
+    display: flex;
+    justify-content: center;
+}
